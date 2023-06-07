@@ -1,0 +1,93 @@
+
+.Recipes {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  
+}
+
+
+.Recipes h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.RecipesInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.Recipesgen{
+  display: flex;
+  flex-direction: column;
+}
+
+.RecipesInformation p {
+  font-size: 0.88rem;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.instructions h3 {
+  margin: 0;
+}
+
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.instructions h3 {
+  color: #cca353;
+  font-weight: 600;
+}
+
+.calories{
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  background-color: #cca353;
+  color: white;
+}
+
+.popupContent {
+  position:absolute;
+  top: -30;
+  left: 0;
+  width: 98%;
+  background-color:rgba(255, 255, 255, 0.842);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  padding: 5px;
+  margin: auto;
+}
+
+.cross{
+  display: block;
+  justify-content: right;
+ margin: auto;
+ padding: 10px;
+ font-size: 20px;
+ font-weight: bold;
+ 
+}
+.cross:hover{
+  cursor: pointer;
+}
+
+.head{
+  text-align: center;
+}

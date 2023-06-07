@@ -1,0 +1,13 @@
+
+.box{
+    border: 2px solid black;
+    padding: 50px !important;
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.details p span{
+    font-weight: bold;
+}
